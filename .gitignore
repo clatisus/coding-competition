@@ -1,3 +1,6 @@
 *.out
 input*
 output*
+*.dSYM
+*.zip
+*.txt
