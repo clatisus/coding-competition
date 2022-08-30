@@ -63,7 +63,7 @@ int main() {
         if (x < 0 || x >= n || y < 0 || y >= m || s[x][y] != '^') {
           continue;
         }
-        if (degree[x][y]-- < 2) {
+        if (--degree[x][y] < 2) {
           q.emplace(x, y);
         }
       }
