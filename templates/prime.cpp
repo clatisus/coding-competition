@@ -1,5 +1,10 @@
 #include <vector>
 
+// common primes are:
+//  - 1e9 + 7
+//  - 998244353
+//  - 1000050131
+
 namespace Prime {
 std::vector<int> min, prime;
 
