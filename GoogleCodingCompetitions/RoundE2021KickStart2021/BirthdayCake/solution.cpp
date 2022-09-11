@@ -35,7 +35,7 @@ int main() {
     bool c2_open = c2 == C;
     int open_cnt = r1_open + r2_open + c1_open + c2_open;
 
-    long long ans = LONG_MAX;
+    long long ans = LLONG_MAX;
     if (open_cnt == 4) {
       ans = 0;
     } else if (open_cnt == 3) {
